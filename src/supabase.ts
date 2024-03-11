@@ -10,8 +10,17 @@ export const supabase = createClient<Database>(supabaseUrl, supabaseAnonKey)
 // @ts-ignore
 globalThis.supabase = supabase
 
-const { data } = await supabase.auth.getUser()
-export const user = ref(data.user)
-supabase.auth.onAuthStateChange( (evt,session)=>{
-    user.value = session?.user ?? null
-})
+// Création d'une référence réactive pour l'utilisateur
+export const user = ref(null);
+
+// Fonction asynchrone pour récupérer l'utilisateur et s'abonner aux changements d'état d'authentification
+async function fetchUser() {
+  const { data } = await supabase.auth.getUser();
+  user.value = data.user;
+  supabase.auth.onAuthStateChange((event, session) => {
+    user.value = session?.user ?? null;
+  });
+}
+
+// Invoquer fetchUser directement pour initialiser l'état de l'utilisateur
+fetchUser();
