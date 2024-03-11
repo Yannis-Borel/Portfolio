@@ -1,7 +1,7 @@
 <template>
-  <Layout />
+    <RouterView />
 </template>
 
 <script setup>
-import Layout from './components/Layout.vue';
+import Header from './components/Header.vue';
 </script>
