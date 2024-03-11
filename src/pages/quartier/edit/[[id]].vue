@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import FormulaireQuartier from "@/components/FormulaireQuartier.vue";
 import { useRoute } from 'vue-router/auto'
 const route = useRoute('/quartier/edit/[[id]]')
 </script>
