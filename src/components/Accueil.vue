@@ -2,21 +2,23 @@
   <div class="min-h-screen bg-header-degrade flex flex-col relative">
     <Header class="absolute" />
     <main class="inset-0 flex lg:justify-end justify-center items-center lg:items-center">
-      <section class ="sm:mr-0 sm:mt-0">
-        <div class="sm:flex sm:flex-col sm:items-center lg:mr-24 mt-12">
-          <h1 class="text-black lg:text-8xl text-6xl font-normal leading-normal tracking-wide text-center" style="font-family: 'Coco-Bold';">Développeur web</h1>
-          <h2 class="text-black lg:text-6xl text-4xl font-normal leading-normal tracking-[5.76px] sm:ml-0 sm:text-center p-6" style="font-family: 'POLYA';">Full-stack</h2>
-          <div class="flex justify-center w-full mt-28">
-            <button class="border-2 justify-center flex items-center border-black text-black font-bold py-2 px-6 rounded-[30px] transition duration-150 ease-in-out hover:bg-black hover:text-white focus:outline-none">
-              Mes projets
-            </button>
+      <div class="paper-wrapper">
+        <section class="sm:mr-0 sm:mt-0 flex flex-col items-center">
+          <div class="sm:flex sm:flex-col sm:items-center lg:mr-24 mt-12">
+            <h1 class="text-black lg:text-8xl text-6xl font-normal leading-normal tracking-wide text-center" style="font-family: 'Coco-Bold';">Développeur web</h1>
+            <h2 class="text-black lg:text-6xl text-4xl font-normal leading-normal tracking-[5.76px] sm:ml-0 sm:text-center p-6" style="font-family: 'POLYA';">Full-stack</h2>
+            <div class="flex justify-center w-full mt-28">
+              <button class="border-2 justify-center flex items-center border-black text-black font-bold py-2 px-6 rounded-[30px] transition duration-150 ease-in-out hover:bg-black hover:text-white focus:outline-none">
+                Mes projets
+              </button>
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
+      </div>
     </main>
     <div class="overflow-hidden">
       <img src="@/assets/images/Fond_image.svg" alt="Image de fond" class="w-auto absolute bottom-0 left-0 hidden lg:block" style="max-width: 100%; max-height: 100%;" />
-      <img src="@/assets/images/mon_image.png" alt="Yannis Borel" class="w-auto absolute bottom-0 left-0 hidden lg:block" style="height: 70vh; max-width: 100%;" />
+      <img src="@/assets/images/mon_image.png" alt="Yannis Borel" id="yannisBorel" class="w-auto absolute bottom-0 left-0 hidden lg:block" style="height: 70vh; max-width: 100%;" />
     </div>
     <div class="absolute inset-x-0 bottom-0 flex lg:justify-between lg:items-end p-4">
       <div class="flex justify-center w-full lg:ml-64">
@@ -29,12 +31,37 @@
   </div>
 </template>
 
-<script>
+<script setup>
 import Header from "@/components/Header.vue";
+import { onMounted } from 'vue';
+import { gsap } from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
-export default {
-  components: {
-    Header
-  }
-}
+gsap.registerPlugin(ScrollTrigger);
+
+onMounted(() => {
+  const paperWrapper = document.querySelector('.paper-wrapper');
+  const tl = gsap.timeline({
+    scrollTrigger: {
+      trigger: paperWrapper,
+      start: 'top top',
+      end: '100%',
+      scrub: 2,
+      pin: true,
+    },
+  });
+
+  tl.to(paperWrapper, {
+    rotationX: 90,
+    rotationY: 90,
+    perspective: 1000,
+    duration: 2,
+  });
+});
 </script>
+
+<style scoped>
+.paper-wrapper {
+  transform-style: preserve-3d;
+}
+</style>

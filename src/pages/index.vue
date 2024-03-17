@@ -3,7 +3,7 @@
   <Accueil />
   <div class="bg-black text-white py-8 px-4">
     <h2
-      class="text-white text-6xl font-normal mb-10 text-center leading-normal tracking-[5.76px]"
+      class="text-white text-4xl lg:text-6xl md:text-6xl font-normal mb-10 text-center leading-normal tracking-[5.76px]"
       style="font-family: 'POLYA'"
       data-aos="fade-up"
       data-aos-duration="1000"
