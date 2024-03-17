@@ -1,15 +1,18 @@
+<!-- components/Header.vue -->
 <template>
   <header class="px-6 flex items-center justify-between">
-    <div class="text-[60px] font-bold" style="font-family: 'Coco-Bold'">
-      YB
-    </div>
+    
+   <RouterLink to="/" class="text-[60px] font-bold" style="font-family: 'Coco-Bold'">
+  YB
+</RouterLink>
+
     <div class="relative">
       <button
-        @click="toggleMenu"
-        class="block focus:outline-none"
+        @click="isOpen = !isOpen"
+        class="block md:hidden focus:outline-none"
       >
         <svg
-          class="h-8 w-8 fill-current"
+          class="h-6 w-6 fill-current"
           viewBox="0 0 24 24"
           :class="{ 'transform rotate-90': isOpen }"
         >
@@ -24,38 +27,34 @@
           'block shadow-lg bg-white': isOpen,
           'hidden': !isOpen,
         }"
-        class="absolute right-0 mt-2 py-4 w-64 rounded-xl"
+        class="absolute right-0 mt-2 py-2 w-48 rounded-xl md:block md:static md:shadow-none md:mt-0 md:py-0 md:bg-transparent md:w-auto"
       >
         <RouterLink
           to="/"
-          class="block px-6 py-3 text-base hover:bg-gray-200"
+          class="block px-4 py-2 mt-2 text-sm md:inline-block md:mt-0 hover:bg-gray-200 md:ml-6 md:hover:bg-transparent md:hover:underline"
           >Link 1
         </RouterLink>
         <RouterLink
           to="/"
-          class="block px-6 py-3 text-base hover:bg-gray-200"
+          class="block px-4 py-2 mt-2 text-sm md:inline-block md:mt-0 hover:bg-gray-200 md:ml-6 md:hover:bg-transparent md:hover:underline"
           >Link 2
         </RouterLink>
         <RouterLink
           to="/about"
-          class="block px-6 py-3 text-base hover:bg-gray-200"
+          class="block px-4 py-2 mt-2 text-sm md:inline-block md:mt-0 hover:bg-gray-200 md:ml-6 md:hover:bg-transparent md:hover:underline"
           >Link 3
         </RouterLink>
       </nav>
     </div>
+    
   </header>
-  <div class="bg-black h-[1px] mx-auto mt-[-20px] w-3/4"></div>
+   <div class="bg-black h-[1px] mx-auto mt-[-20px] w-3/4"> </div>
 </template>
 
 <script setup>
 import { ref } from "vue";
 import { RouterLink } from "vue-router";
-
 const isOpen = ref(false);
-
-const toggleMenu = () => {
-  isOpen.value = !isOpen.value;
-}
 </script>
 
 <style>
