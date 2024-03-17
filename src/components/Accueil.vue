@@ -1,12 +1,12 @@
 <template>
   <div class="min-h-screen bg-header-degrade flex flex-col relative">
     <Header class="absolute" />
-    <main class="inset-0 flex lg:justify-end items-center lg:items-center">
-      <section class="mt-[-300px] lg:mr-[200px] lg:mt-[-300px] sm:mr-0 sm:mt-0">
-        <div class="mt-80 sm:flex sm:flex-col sm:items-center">
-          <h1 class="text-black lg:text-8xl md:text-7xl sm:text-4xl font-normal leading-normal tracking-wide sm:text-center" style="font-family: 'Coco-Bold';">Développeur web</h1>
-          <h2 class="text-black text-[48px] font-normal leading-normal tracking-[5.76px] ml-[90px] sm:ml-0 sm:text-center" style="font-family: 'POLYA';">Full-stack</h2>
-          <div class="flex justify-center w-full mt-8">
+    <main class="inset-0 flex lg:justify-end justify-center items-center lg:items-center">
+      <section class ="sm:mr-0 sm:mt-0">
+        <div class="sm:flex sm:flex-col sm:items-center lg:mr-24 mt-12">
+          <h1 class="text-black lg:text-8xl text-6xl font-normal leading-normal tracking-wide text-center" style="font-family: 'Coco-Bold';">Développeur web</h1>
+          <h2 class="text-black lg:text-6xl text-4xl font-normal leading-normal tracking-[5.76px] sm:ml-0 sm:text-center p-6" style="font-family: 'POLYA';">Full-stack</h2>
+          <div class="flex justify-center w-full mt-28">
             <button class="border-2 justify-center flex items-center border-black text-black font-bold py-2 px-6 rounded-[30px] transition duration-150 ease-in-out hover:bg-black hover:text-white focus:outline-none">
               Mes projets
             </button>
