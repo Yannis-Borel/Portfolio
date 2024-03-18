@@ -105,14 +105,8 @@ onMounted(() => {
    où j'affûte mes compétences en design et en programmation.</p>
      <p class="text-3xl text-balance  text-titre font-black" style="background: linear-gradient(90deg,#FFFFFF 50%,rgba(6,4,26,.2) 0); background-position-x: 100%;background-size: 200% 100%;   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;" id="line7">
-   Aspirant développeur web full stack, j'ai une soif d'apprendre constante</p>
-   <p class="text-3xl text-balance  text-titre font-black" style="background: linear-gradient(90deg,#FFFFFF 50%,rgba(6,4,26,.2) 0); background-position-x: 100%;background-size: 200% 100%;   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;" id="line9">
-   et un engagement profond envers le code propre et les pratiques</p>
-   <p class="text-3xl text-balance  text-titre font-black" style="background: linear-gradient(90deg,#FFFFFF 50%,rgba(6,4,26,.2) 0); background-position-x: 100%;background-size: 200% 100%;   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;" id="line11">
-   de développement agile.</p>
-    
+   Aspirant développeur web full stack, j'ai une soif d'apprendre constante !</p>
+  
     </div>
 </div>
 

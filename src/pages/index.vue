@@ -3,13 +3,14 @@
   <Accueil />
   <div class="bg-black text-white py-8 px-4">
     <h2
-      class="text-white text-4xl lg:text-6xl md:text-6xl font-normal mb-10 text-center leading-normal tracking-[5.76px]"
+      class="text-white text-4xl lg:text-6xl md:text-6xl font-normal mb-20 mt-10 text-center leading-normal tracking-[5.76px]"
       style="font-family: 'POLYA'"
       data-aos="fade-up"
       data-aos-duration="1000"
     >
       Qui suis-je ?
     </h2>
+    
     <div class="flex flex-wrap justify-center">
       <div
         class="w-full sm:w-1/2 md:w-1/3 px-4 mb-8 transition-all duration-300 hover:scale-105"
@@ -51,9 +52,27 @@
         </div>
       </div>
     </div>
+   
     <AnimationText />
+    <h2
+      class="text-white text-4xl lg:text-6xl md:text-6xl font-normal mb-10 text-center leading-normal tracking-[5.76px]"
+      style="font-family: 'POLYA'"
+      data-aos="fade-up"
+      data-aos-duration="1000"
+    >
+      Mes compétences 
+    </h2>
+    <div class="flex justify-center items-center pt-4 pb-20">
+    <div class="w-2/3 border-b-4 border-dotted border-white border-opacity-25"></div>
   </div>
-  
+    <div class="flex flex-wrap justify-center ">
+    <svgstatique />
+    <svgstatique />
+    <svgstatique />
+    </div>
+  </div>
+ 
+  <Contact />
 </template>
 
 <script setup>
@@ -67,6 +86,9 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import AnimationText from '@/components/AnimationText.vue';
 import { RouterLink, RouterView } from 'vue-router';
 import Accueil from '@/components/Accueil.vue';
+import svgstatique from '@/components/svgstatique.vue';
+import Contact from '@/components/Contact.vue';
+
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -127,6 +149,8 @@ gsap.to(
     }
   }
 );
+
+
 </script>
 
 <style>
@@ -142,4 +166,6 @@ gsap.to(
   font-weight: normal;
   font-style: normal;
 }
+
+
 </style>
