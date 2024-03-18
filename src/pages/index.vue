@@ -70,9 +70,14 @@
     <svgstatique />
     <svgstatique />
     </div>
+    
   </div>
- 
+  <div>
+    
+  </div>
+  
   <Contact />
+  <AfficheCard />
 </template>
 
 <script setup>
@@ -88,6 +93,9 @@ import { RouterLink, RouterView } from 'vue-router';
 import Accueil from '@/components/Accueil.vue';
 import svgstatique from '@/components/svgstatique.vue';
 import Contact from '@/components/Contact.vue';
+import  AfficheCard from '@/components/AfficheCard.vue';
+
+
 
 
 gsap.registerPlugin(ScrollTrigger);

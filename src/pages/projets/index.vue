@@ -12,6 +12,6 @@ let {data : tableauprojets, error} = await supabase
 
 <template>
     <div class="grid grid-cols-3 gap-4">
-        <AfficheCard v-for="maison in tableauprojets" v-bind="projet" />
+        <AfficheCard v-for="projet in tableauprojets" v-bind="projet" />
     </div>
 </template>
