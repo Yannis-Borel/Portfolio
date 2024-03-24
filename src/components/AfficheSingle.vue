@@ -8,6 +8,7 @@
   const projet = ref<SchemaCard>({
       nom_projet: "string",
       image_projet: "string",
+      description_projet: "string",
   });
 
   const router = useRouter();
@@ -22,6 +23,6 @@
 
 <template>
   <div class="p-2">
-    <AffichePageCard v-bind="projet" :nom_projet="projet.nom_projet" :image_projet="projet.image_projet"  />
-  </div>
+    <AffichePageCard v-bind="projet" :nom_projet="projet.nom_projet" :image_projet="projet.image_projet" :description_projet="projet.description_projet" />
+ </div>
 </template>

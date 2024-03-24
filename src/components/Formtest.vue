@@ -24,6 +24,8 @@ const submitForm = async () => {
     console.log(result);
   }
 }
+
+
 </script>
 <template>
   <form @submit.prevent="submitForm">
