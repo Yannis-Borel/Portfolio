@@ -31,12 +31,12 @@
     </div>
     <div class="w-full md:w-1/4 flex flex-col justify-center items-center mr-12 p-4">
       <div class="flex flex-col items-center">
-        <span class="text-3xl md:text-8xl font-normal leading-normal tracking-wide" style="font-family: 'Coco-Bold'">
+        <span class="text-3xl md:text-6xl lg:text-8xl font-normal leading-normal tracking-wide" style="font-family: 'Coco-Bold'">
           CONTACTEZ
         </span>
         <div class="flex items-center mt-4">
           <div class="hidden sm:block h-1 w-48 bg-white" style="font-family: 'Coco-Bold'"></div>
-          <span class="text-3xl md:text-8xl font-normal leading-normal tracking-wide ml-3"
+          <span class="text-3xl md:text-6xl lg:text-8xl font-normal leading-normal tracking-wide ml-3"
             style="font-family: 'Coco-Bold'">
             MOI
           </span>

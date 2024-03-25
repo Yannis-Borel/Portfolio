@@ -40,7 +40,7 @@ updatePreviewPosition();
         @mouseenter="handleMouseEnter" @mouseleave="handleMouseLeave" @mousemove="handleMouseMove">
         <div class="flex flex-col md:flex-row items-center justify-between">
             <div class="font-extrabold text-3xl md:text-6xl mb-2">{{ props.nom_projet }}</div>
-            <div class="flex items-center space-x-2 mt-2 md:mt-0">
+            <div class="flex flex-wrap items-center space-x-2 mt-2 md:mt-0 ">
                 <div class="tag">{{ props.outils_utilise1 }}</div>
                 <div class="tag">{{ props.outils_utilise2 }}</div>
                 <div class="tag">{{ props.outils_utilise3 }}</div>
@@ -48,7 +48,7 @@ updatePreviewPosition();
             </div>
         </div>
         <p class="text-gray-400">{{ props.description_card }}</p>
-        <div class="my-10 h-[1px] w-[100%] bg-white transition duration-300 hover:bg-orange-500"></div>
+        <div class="my-10 h-[1px] w-[100%] bg-white transition duration-300 hover:text-lime-300"></div>
         <div class="fixed z-50 transition-all" :class="{ 'opacity-100': showPreview, 'opacity-0': !showPreview }"
             :style="{ left: previewPosition.x + 'px', top: previewPosition.y + 'px' }">
             <img v-if="showPreview" :src="props.image_projet" alt="preview" class="w-64 h-auto" />

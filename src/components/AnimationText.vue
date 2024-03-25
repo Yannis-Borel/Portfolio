@@ -87,23 +87,23 @@ onMounted(() => {
 </script>
 <template>
 
-<div class="flex w-full justify-center items-center flex-col mx-4 my-72  text-[16px] sm:text-[20px] md:text-[24px] lg:text-[30px] font-bold  " >
+<div class="flex  w-full justify-center items-center flex-col mx-4 my-72  text-[16px] sm:text-[20px] md:text-[24px] lg:text-[30px] font-bold  " >
     
-    <div class="flex justify-start items-start w-4/5 ml-[15%] flex-col text-start">
+    <div class="flex justify-start items-start w-4/5 ml-[15%] flex-col text-start ">
         <p class="lg:text-3xl text-2xl text-balance  text-titre font-black" style="background: linear-gradient(90deg,#FFFFFF 50%,rgba(6,4,26,.2) 0); background-position-x: 100%;background-size: 200% 100%;   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;" id="line1">Passionné par le développement et la conception </p>
  
-        <p class="text-3xl text-balance  text-titre font-black" style="background: linear-gradient(90deg,#FFFFFF 50%,rgba(6,4,26,.2) 0); background-position-x: 100%;background-size: 200% 100%;   -webkit-background-clip: text;
+        <p class="lg:text-3xl text-2xl  text-balance  text-titre font-black" style="background: linear-gradient(90deg,#FFFFFF 50%,rgba(6,4,26,.2) 0); background-position-x: 100%;background-size: 200% 100%;   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;" id="line3">de solutions web innovantes, je suis un étudiant </p>
-        <p class="text-3xl text-balance  text-titre font-black" style="background: linear-gradient(90deg,#FFFFFF 50%,rgba(6,4,26,.2) 0); background-position-x: 100%;background-size: 200% 100%;   -webkit-background-clip: text;
+        <p class="lg:text-3xl text-2xl  text-balance  text-titre font-black" style="background: linear-gradient(90deg,#FFFFFF 50%,rgba(6,4,26,.2) 0); background-position-x: 100%;background-size: 200% 100%;   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;" id="line4">
    dynamique de 19 ans en deuxième année de BUT MMI, </p>
-        <p class="text-3xl text-balance  text-titre font-black" style="background: linear-gradient(90deg,#FFFFFF 50%,rgba(6,4,26,.2) 0); background-position-x: 100%;background-size: 200% 100%;   -webkit-background-clip: text;
+        <p class="lg:text-3xl text-2xl  text-balance  text-titre font-black" style="background: linear-gradient(90deg,#FFFFFF 50%,rgba(6,4,26,.2) 0); background-position-x: 100%;background-size: 200% 100%;   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;" id="line5">   </p>
-  <p class="text-3xl text-balance  text-titre font-black" style="background: linear-gradient(90deg,#FFFFFF 50%,rgba(6,4,26,.2) 0); background-position-x: 100%;background-size: 200% 100%;   -webkit-background-clip: text;
+  <p class="lg:text-3xl text-2xl  text-balance  text-titre font-black" style="background: linear-gradient(90deg,#FFFFFF 50%,rgba(6,4,26,.2) 0); background-position-x: 100%;background-size: 200% 100%;   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;" id="line6">
    où j'affûte mes compétences en design et en programmation.</p>
-     <p class="text-3xl text-balance  text-titre font-black" style="background: linear-gradient(90deg,#FFFFFF 50%,rgba(6,4,26,.2) 0); background-position-x: 100%;background-size: 200% 100%;   -webkit-background-clip: text;
+     <p class="lg:text-3xl text-2xl  text-balance  text-titre font-black" style="background: linear-gradient(90deg,#FFFFFF 50%,rgba(6,4,26,.2) 0); background-position-x: 100%;background-size: 200% 100%;   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;" id="line7">
    Aspirant développeur web full stack, j'ai une soif d'apprendre constante !</p>
   
