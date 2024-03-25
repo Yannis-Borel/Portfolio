@@ -23,6 +23,6 @@
 
 <template>
   <div class="p-2">
-    <AffichePageCard v-bind="projet" :nom_projet="projet.nom_projet" :image_projet="projet.image_projet" :description_projet="projet.description_projet" />
+    <AffichePageCard v-bind="projet" :nom_projet="projet.nom_projet" :sreen_site="projet.sreen_site" :image_projet="projet.image_projet" :description_projet="projet.description_projet" />
  </div>
 </template>

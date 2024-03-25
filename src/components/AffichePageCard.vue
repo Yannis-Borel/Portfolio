@@ -8,7 +8,10 @@ defineProps<SchemaCard>()
 <template>
   <div class="p-2">
     <p>{{ nom_projet }}</p>
-    <img :src="image_projet" />
+    <img :src="screen_site" />
+   
     <p>{{ description_projet1 }}</p>
+     <img :src="image_projet" />
+
   </div>
 </template>
