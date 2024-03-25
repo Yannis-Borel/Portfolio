@@ -44,8 +44,7 @@
     </div>
     <div class="flex flex-wrap justify-center ">
       <svgstatique />
-      <svgstatique />
-      <svgstatique />
+    
     </div>
     <h2
       class="text-white text-4xl lg:text-7xl md:text-6xl font-normal mb-10  leading-normal tracking-[5.76px] mt-28 ml-28"

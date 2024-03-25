@@ -22,7 +22,7 @@
 </script>
 
 <template>
-  <div class="p-2">
+  <div class="">
     <AffichePageCard v-bind="projet" :nom_projet="projet.nom_projet" :sreen_site="projet.sreen_site" :image_projet="projet.image_projet" :description_projet="projet.description_projet" />
  </div>
 </template>
