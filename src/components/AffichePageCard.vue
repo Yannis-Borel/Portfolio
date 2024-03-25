@@ -40,10 +40,10 @@
       </div>
       <!-- Tools Section -->
       <div class="mb-16 md:mb-16">
-        <h2 class="text-3xl md:text-4xl font-bold mb-8 text-center md:hidden">
+        <h2 class="text-3xl md:text-4xl font-bold mb-8 text-center">
           Outils Utilisés
         </h2>
-        <div class="flex flex-wrap justify-center -mx-2 md:hidden">
+        <div class="flex flex-wrap justify-center -mx-2 ">
           <div class="px-2 mb-4">
             <div class="tag">{{ outils_utilise1 }}</div>
           </div>
