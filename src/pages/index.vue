@@ -8,7 +8,7 @@
       data-aos="fade-up"
       data-aos-duration="1000"
     >
-      Qui suis-je ? dke:kdejdejkd
+      Qui suis-je ? 
     </h2>
 
     <div class="flex flex-wrap justify-center">

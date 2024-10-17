@@ -43,7 +43,7 @@
         </div>
       </div>
       <p class="mt-4 font-semibold text-center">yannis.borel84@gmail.com</p>
-      <p class="font-semibold text-center">07 45 43 63 89</p>
+      <p class="font-semibold text-center">07 83 01 65 87</p>
     </div>
   </div>
 </template>

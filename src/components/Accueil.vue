@@ -103,7 +103,7 @@ onMounted(() => {
 })
 
 const downloadCV = () => {
-  const cvURL = 'https://drive.google.com/file/d/1x8YwXy2q7LL4z05N-RjMxVWIgwP4CIY0/view?usp=sharing'
+  const cvURL = 'https://drive.google.com/file/d/1viWXsG7_T66KjcfEUsRmaa_KuiSuIPcr/view?usp=sharing'
 
   const link = document.createElement('a')
   link.href = cvURL
