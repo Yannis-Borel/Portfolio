@@ -97,15 +97,15 @@ onMounted(() => {
   -webkit-text-fill-color: transparent;" id="line3">de solutions web innovantes, je suis un étudiant </p>
         <p class="lg:text-3xl text-2xl  text-balance  text-titre font-black" style="background: linear-gradient(90deg,#FFFFFF 50%,rgba(6,4,26,.2) 0); background-position-x: 100%;background-size: 200% 100%;   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;" id="line4">
-   dynamique de 19 ans en deuxième année de BUT MMI, </p>
+   dynamique de 19 ans en troisième année de BUT MMI, </p>
         <p class="lg:text-3xl text-2xl  text-balance  text-titre font-black" style="background: linear-gradient(90deg,#FFFFFF 50%,rgba(6,4,26,.2) 0); background-position-x: 100%;background-size: 200% 100%;   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;" id="line5">   </p>
   <p class="lg:text-3xl text-2xl  text-balance  text-titre font-black" style="background: linear-gradient(90deg,#FFFFFF 50%,rgba(6,4,26,.2) 0); background-position-x: 100%;background-size: 200% 100%;   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;" id="line6">
-   où j'affûte mes compétences en design et en programmation.</p>
+   où j'affûte mes compétences en communication, en développement web, et en design.</p>
      <p class="lg:text-3xl text-2xl  text-balance  text-titre font-black" style="background: linear-gradient(90deg,#FFFFFF 50%,rgba(6,4,26,.2) 0); background-position-x: 100%;background-size: 200% 100%;   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;" id="line7">
-   Aspirant développeur web full stack, j'ai une soif d'apprendre constante !</p>
+   Actuellement en parcours développeur web full stack, j'ai une soif d'apprendre constante !</p>
   
     </div>
 </div>
